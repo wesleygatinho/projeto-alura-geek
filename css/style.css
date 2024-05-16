@@ -278,7 +278,7 @@ input::placeholder {
     display: flex;
     justify-content: center;
     padding: 1.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #ffffff;
     font-family: "IBM Plex Mono", monospace;
     font-weight: 400;
@@ -334,9 +334,18 @@ input::placeholder {
     .secao__produtos{
        width: 120%;
        height: 100%;
+       
     } 
     .card{
         width: 40%;
         display: block;
+    }
+
+    /* .cabecalho__meio{
+        font-size: 1rem;
+    } */
+    
+    .rodape__titulo{
+        font-size: 1rem;
     } 
 }
