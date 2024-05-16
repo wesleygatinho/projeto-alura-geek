@@ -12,8 +12,6 @@ async function criarProdutos(evento) {
     const preco = document.querySelector("[data-preco").value;
 
     await conectaApi.criaProduto(nome, preco, url);
-
-    window.location.href = "../pages/envio.html";
 }
 
 formulario.addEventListener("submit", evento => criarProdutos(evento));
