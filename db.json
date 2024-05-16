@@ -1,0 +1,43 @@
+{
+  "produtos": [
+    {
+      "nome": "PutaQuePariu",
+      "preco": "20",
+      "url": "https://images.tcdn.com.br/img/img_prod/460977/caneca_branca_paciencia_puta_que_pariu_cd_66489_1_20d6e30c655530d3b182ee9477239836.jpg"
+    },
+    {
+      "nome": "santos rebaixado",
+      "preco": "10",
+      "url": "https://preview.redd.it/hoje-o-santos-fc-conseguiu-alcan%C3%A7ar-uma-conquista-in%C3%A9dita-v0-ucar5yfu6tvb1.jpg?width=640&crop=smart&auto=webp&s=aad201f412b46f69601a3b031544362f07bca0d2"
+    },
+    {
+      "nome": "Pai Kid",
+      "preco": "100.000",
+      "url": "https://www.meiahora.com.br/_midias/jpg/2019/10/14/kid_bengala-13739124.jpg"
+    },
+    {
+      "id": "3f22",
+      "nome": "Bolsonaro e Amante",
+      "preco": "0,5",
+      "url": "https://www.cartacapital.com.br/wp-content/uploads/2024/04/Jair-bolsonaro-e-alexandre-de-moraes.png"
+    },
+    {
+      "id": "34f8",
+      "nome": "Speed Danificado",
+      "preco": "10",
+      "url": "https://s2-ge.glbimg.com/Xo9SSy9pZCGPyOWdf8M3gUpOivc=/0x0:1152x1408/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/j/D/k71qjzRRA8BcmQM9j9lQ/ishowspeed.jpg"
+    },
+    {
+      "id": "89e9",
+      "nome": "Tal Pai Tal filho",
+      "preco": "45",
+      "url": "https://contenti1.espn.com.br/image/wide/622_229ec732-4f23-3cea-8fc7-e28d72bc4a45.jpg"
+    },
+    {
+      "id": "0a02",
+      "nome": "Tal Pai Tal filho",
+      "preco": "45",
+      "url": "https://contenti1.espn.com.br/image/wide/622_229ec732-4f23-3cea-8fc7-e28d72bc4a45.jpg"
+    }
+  ]
+}

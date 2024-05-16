@@ -184,6 +184,7 @@ body{
     width: 1.3rem;
     left: 100px;
     top:0;
+    cursor: pointer;
 }
 
 
@@ -197,6 +198,10 @@ body{
     flex-direction: column;
     align-items: center;  
     gap: 30px;
+}
+
+.form{
+    gap: 50rem;
 }
 
 .titulo__add__produto{
@@ -217,6 +222,7 @@ body{
     font-size: 1.2rem;  
     font-family: "IBM Plex Mono", monospace;
     font-weight: 600;
+    text-decoration: #03318C;
   
 
 }
@@ -241,6 +247,7 @@ input::placeholder {
     font-size: 1rem;
     font-family: "IBM Plex Mono", monospace;
     font-weight: 500;
+    cursor: pointer;
     
     
 }
@@ -248,6 +255,7 @@ input::placeholder {
 .botao__enviar{
     background-color:#03318C;
     color: #ffffff;
+    border: #03318C;
 }
 
 .botao__limpar{
@@ -341,6 +349,11 @@ input::placeholder {
        height: 100%;
        
     } 
+
+    /* .imagem__daporra{
+        width: 160px;
+        height: 150px;
+    } */
     .card{
         width: 40%;
         display: block;
