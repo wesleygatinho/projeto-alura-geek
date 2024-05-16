@@ -22,6 +22,17 @@ async function criaProduto(nome, preco, url){
     return conexaoConvertida;
 }
 
+
+// async function apagarProdutos(id) {
+//     const conexao = await fetch(`http://localhost:3000/produtos/${id}`, {
+//         method: "DELETE"});
+
+//     const resposta = await conexao.json();
+
+//     return resposta;
+// }
+
+
 export const conectaApi = {
     listaProdutos,
     criaProduto
