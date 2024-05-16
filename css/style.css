@@ -331,6 +331,11 @@ input::placeholder {
 
 
 @media (max-width: 850px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
     .secao__produtos{
        width: 120%;
        height: 100%;
