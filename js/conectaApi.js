@@ -1,3 +1,6 @@
+
+//Conecta a base Json
+
 async function listaProdutos(){
     const conexao = await fetch("http://localhost:3000/produtos");
     const conexaoConvertida = await conexao.json();
@@ -5,7 +8,7 @@ async function listaProdutos(){
     return conexaoConvertida;
 }
 
-async function criaProduto(nome, preco, url){
+async function criaProduto(nome, preco, url, id){
     const conexao = await fetch("http://localhost:3000/produtos", {
         method: "POST",
         headers: {
@@ -14,7 +17,8 @@ async function criaProduto(nome, preco, url){
         body: JSON.stringify({
             nome: nome, 
             preco: preco,
-            url: url 
+            url: url,
+            id: id 
         } )
     });
     const conexaoConvertida = await conexao.json();
@@ -23,15 +27,14 @@ async function criaProduto(nome, preco, url){
 }
 
 
-// async function apagarProdutos(id) {
-//     const conexao = await fetch(`http://localhost:3000/produtos/${id}`, {
-//         method: "DELETE"});
-
-//     const resposta = await conexao.json();
-
-//     return resposta;
+// async function apagarCard(id){
+    
+//     const conexao = await fetch(`http://localhost:3000/jogos/${id}`, {
+//         method: 'DELETE'
+//     });
+//     const conexaoConvertida = await conexao.json();
+//     return conexaoConvertida;
 // }
-
 
 export const conectaApi = {
     listaProdutos,

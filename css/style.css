@@ -4,15 +4,8 @@
 *{
     padding: 0;
     margin: 0;
-    /* outline: none;
-    border: none; */
     box-sizing: border-box;
 }
-
-/* img{
-    width: 100%;
-    display: flex;
-} */
 
 a{
     text-decoration: none;
@@ -24,14 +17,13 @@ body{
 }
 
 
-
+/* AQUI COMEÇA O CABEÇALHO */
 .cabecalho__container {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #5300C8;
-    /* width: 100vw; */
-    /* padding: 0 25px; */
+    
 }
 
 .cabecalho__imagem {
@@ -57,7 +49,7 @@ body{
 
 
 
-/*Produtos*/
+/*MEUS PRODUTOS*/
 
 .classe__principal__produtos {
     display: flex;
@@ -65,11 +57,7 @@ body{
     justify-content:space-around;
     padding: 2rem;
     gap: 10px;
-    align-items: baseline;
-    /* flex: 1 1 0;
-    border: 0; */
-    /* flex-direction: column;  */
-    
+    align-items: baseline;    
 }
 
 .tudo__desse{
@@ -95,8 +83,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
-    /* background-color: aqua; */
     width: 55rem;
     height: 55rem;
     padding: 0 0 10px 0;
@@ -107,15 +93,9 @@ body{
 
 
 .card{    
-    /* flex-direction: row-reverse; */
-    
-    /* flex-wrap: wrap; */
     background: #5300C8;
-	border-radius: 10px;
-	/* padding: 20px; */
-    /* gap: 10px; */
-	border: 3px solid #000000;
-	/* height: 200px; */
+	border-radius: 10px;	
+	border: 3px solid #000000;	
     padding: 8px;
     width: 30%;
     height: 38%;
@@ -125,31 +105,23 @@ body{
 }
 
 
-.imagem__daporra{
+.imagem__produtos{
     width: 90%;
-    height: 85%;
-    
-    /* height: 12rem; */
+    height: 85%;   
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: 3px solid #000000;
     border-radius: 10px;
-    /* padding: 10px 0 0 0; */
-    /* justify-content: center; */
-
 }
 
 .card__container__info{
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     font-family: 'Courier New', Courier, monospace;
     font-size: 1rem;
     gap: 8px;
     padding: 3px;
-    /* font-weight: 400; */
-
     font-family: "IBM Plex Mono", monospace;
     font-weight: 400;
     font-style: normal;
@@ -180,6 +152,11 @@ body{
 
 }
 
+.delete-button{
+    background: transparent;
+    border: none;
+}
+
 .lixeira{
     width: 1.3rem;
     left: 100px;
@@ -191,7 +168,7 @@ body{
 
 
 
-/*Add produto*/
+/*ADICIONANDO PRODUTOS*/
 
 .classe__add__produtos{
     display: flex;
@@ -223,8 +200,6 @@ body{
     font-family: "IBM Plex Mono", monospace;
     font-weight: 600;
     text-decoration: #03318C;
-  
-
 }
 
 input::placeholder {
@@ -266,7 +241,7 @@ input::placeholder {
 
 
 
-/*Rodape*/
+/*MEU RODAPÉ*/
 
 .rodape__container {
     flex-shrink: 0;
@@ -319,13 +294,7 @@ input::placeholder {
         overflow-y: auto;
         display: flex;
         flex-wrap: wrap;
-    } 
-
-    /* .card{
-        display: flex;
-        flex-wrap: wrap;
-    } */
-    
+    }   
 
     .classe__add__produtos{
         width: 100%;
@@ -348,20 +317,11 @@ input::placeholder {
        width: 120%;
        height: 100%;
        
-    } 
-
-    /* .imagem__daporra{
-        width: 160px;
-        height: 150px;
-    } */
+    }  
     .card{
         width: 40%;
         display: block;
     }
-
-    /* .cabecalho__meio{
-        font-size: 1rem;
-    } */
     
     .rodape__titulo{
         font-size: 1rem;

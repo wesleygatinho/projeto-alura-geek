@@ -1,20 +1,16 @@
-// import { conectaApi } from "./conectaApi.js";
 
-// const apagar = document.querySelector("[data-lixo]");
-
-
-// async function apagarProdutos(evento) {
-//     evento.preventDefault();
-
-//     const id = document.querySelector("[id]").value;
+// Este arquivo apaga produtos na minha Base Json;
+export async function apagarCard(id){
     
+    const conexao = await fetch(`http://localhost:3000/produtos/${id}`, {
+        method: 'DELETE'
+    });
 
-//     await conectaApi.apagarProdutos(id);
+    if (!conexao.ok) {
+        throw new Error('Não foi possível deletar o produto');
+    }
 
-    
-// }
-
-
-// apagar.addEventListener('click', evento=> apagarProdutos(evento))
+    return conexao;
+}
 
 

@@ -6,13 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="./css/reset.css"> -->
-    <!-- <link rel="stylesheet" href="./css/estilos.css"> -->
     <link rel="stylesheet" href="/css/style.css">
     <title>AluraPlay</title>
-    <!-- <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon"> -->
 </head>
 <body>
+
+    <!-- CABEÇALHO DA PÁGINA -->
     <header class="cabecalho__container">
         <img class="cabecalho__imagem" src="/imagens/coracoes.png">
         <a class="cabecalho__meio">Alura <span class="cabecalho__destaque">Geek</span></a>
@@ -20,19 +19,85 @@
 
     
     <main class="classe__principal__produtos">
-        
+     
+    <!-- ONDE OS PRODUTOS FICAM NA TELA -->
     <section class="tudo__desse">
         <div class="cards-container">
             <h1 class="titulo">MEUS PRODUTOS:</h1>
         </div>
         <div class="secao__produtos" data-lista>
            <!-- Aqui o Js assume  -->
+           <!-- Add de codigo apenas para melhor visualização no Vercel -->
+           <div class="card data-card" data-id="e2aw">
+                <img class="imagem__produtos" src="./imagens/star.jpeg" alt="Imagen do produto">
+                <div class="card__container__info">
+                    <p class="nome__produto">StarWars</p>
+                    <div class="card__container__valor">
+                        <p class="valor__preco">R$ $60</p>
+                        <button class="delete-button" data-id="${id}">
+                            <img class="lixeira" src="/imagens/Vector.png" alt="icone apagar" data-lixo>
+                       </button>
+                    </div>
+                </div>`
+            </div>
+
+            <div class="card data-card" data-id="e2aw">
+                <img class="imagem__produtos" src="./imagens/star.jpeg" alt="Imagen do produto">
+                <div class="card__container__info">
+                    <p class="nome__produto">StarWars</p>
+                    <div class="card__container__valor">
+                        <p class="valor__preco">R$ $60</p>
+                        <button class="delete-button" data-id="${id}">
+                            <img class="lixeira" src="/imagens/Vector.png" alt="icone apagar" data-lixo>
+                       </button>
+                    </div>
+                </div>`
+            </div>
+
+            <div class="card data-card" data-id="e2aw">
+                <img class="imagem__produtos" src="./imagens/star.jpeg" alt="Imagen do produto">
+                <div class="card__container__info">
+                    <p class="nome__produto">StarWars</p>
+                    <div class="card__container__valor">
+                        <p class="valor__preco">R$ $60</p>
+                        <button class="delete-button" data-id="${id}">
+                            <img class="lixeira" src="/imagens/Vector.png" alt="icone apagar" data-lixo>
+                       </button>
+                    </div>
+                </div>`
+            </div>
+
+            <div class="card data-card" data-id="e2aw">
+                <img class="imagem__produtos" src="./imagens/star.jpeg" alt="Imagen do produto">
+                <div class="card__container__info">
+                    <p class="nome__produto">StarWars</p>
+                    <div class="card__container__valor">
+                        <p class="valor__preco">R$ $60</p>
+                        <button class="delete-button" data-id="${id}">
+                            <img class="lixeira" src="/imagens/Vector.png" alt="icone apagar" data-lixo>
+                       </button>
+                    </div>
+                </div>`
+            </div>
+
+            <div class="card data-card" data-id="e2aw">
+                <img class="imagem__produtos" src="./imagens/star.jpeg" alt="Imagen do produto">
+                <div class="card__container__info">
+                    <p class="nome__produto">StarWars</p>
+                    <div class="card__container__valor">
+                        <p class="valor__preco">R$ $60</p>
+                        <button class="delete-button" data-id="${id}">
+                            <img class="lixeira" src="/imagens/Vector.png" alt="icone apagar" data-lixo>
+                       </button>
+                    </div>
+                </div>`
+            </div>
         </div>
 
     </section>
 
         
-
+    <!-- ADICIONAR PRODUTOS -->
     <section class="classe__add__produtos">
         <h1 class="titulo__add__produto">ADICIONAR PRODUTO:</h1>
         <form class="form" data-formulario>
@@ -55,14 +120,15 @@
     </section>
     </main>
     
+    <!-- RODAPÉ DA PÁGINA -->
     <footer class="rodape__container">
         <h3 class="rodape__titulo">Desenvolvido por Wesley S.</h3>
     </footer>
     
-    <!-- <script src="/js/conectaApi.js"></script> -->
+    <!-- ONDE OS ARQUIVOS JS SÃO CARREGADOS -->
     <script src="/js/mostrarProdutos.js" type="module"></script>
     <script src="/js/criaProduto.js" type="module"></script>
-    <!-- <script src="/js/removeProduto.js" type="module"></script> -->
+    
     
 </body>
 </html>
