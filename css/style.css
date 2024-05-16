@@ -332,9 +332,11 @@ input::placeholder {
 
 @media (max-width: 850px){
     .secao__produtos{
-       flex-wrap: wrap;
+       width: 120%;
+       height: 100%;
     } 
     .card{
         width: 40%;
+        display: block;
     } 
 }
