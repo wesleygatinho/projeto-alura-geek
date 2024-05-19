@@ -26,16 +26,6 @@ async function criaProduto(nome, preco, url, id){
     return conexaoConvertida;
 }
 
-
-// async function apagarCard(id){
-    
-//     const conexao = await fetch(`http://localhost:3000/jogos/${id}`, {
-//         method: 'DELETE'
-//     });
-//     const conexaoConvertida = await conexao.json();
-//     return conexaoConvertida;
-// }
-
 export const conectaApi = {
     listaProdutos,
     criaProduto
